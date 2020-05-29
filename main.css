@@ -1,0 +1,118 @@
+@media screen and (min-width: 601px) {
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+  }
+  .header {
+      background-color: rgb(52, 115, 167);
+  }
+}
+@media screen and (max-width: 600px) {
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .header {
+          background-color: rgb(52, 115, 167);
+      }
+    }
+
+  .titulo{
+      margin-right: auto;
+      margin-left: auto;
+  }
+  @media screen and (min-width: 601px) {
+    .titulo h1 {
+      font-size: 50px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration-line: underline;
+      text-decoration-style: double ;
+      
+    }
+    @media screen and (max-width: 600px) {
+        .titulo h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration-line: underline;
+            text-decoration-style: double ;
+          
+        }
+      }
+     
+
+      
+  }
+  .miniaturas {
+     margin-left: 150px;
+     margin-right: 165px;
+     margin-top: 50px;
+  }
+  
+  .col-md-4:hover img {
+      opacity: .5;
+
+  }
+  .col-md-12:hover img {
+      opacity: .5;
+  }
+
+  .container img {
+     margin-top: 25px;
+     height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+  }
+
+  .historia {
+      height: 500px;
+      width: auto;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 25px;
+      
+  }
+
+  .historia img {
+      float: left;
+      width: 400px;
+  }
+  .card-body {
+      background-color: rgb(235, 235, 235);
+  }
+ 
+  .card-body p {
+      margin-left: 25%;
+      
+  }
+
+  .formulario{
+      height: 500px;
+      width: auto;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 25px;
+     
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(73, 73, 82);
+    color: white;
+    text-align: center;
+    
+  }
+
+  
